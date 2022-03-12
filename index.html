@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeface</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <input type="checkbox" name="dark-mode" id="dark-mode" class="dark-mode">
+    <div class="container-all">
+        <div class="container-dark-mode">
+            <label for="dark-mode" class="dark-mode--label">
+                <img class="img-light-mode" src="assets/icons/sol.svg" alt="">
+                <img class="img-dark-mode" src="assets/icons/luna.svg" alt="">
+            </label>
+        </div>
+        <header id="home" class="header">
+            <div class="logo">
+                <div class="logo_container">
+                    <img src="assets/images/pokeball-pokemon-svgrepo-com.svg" alt="Pokeball">
+                </div>
+                <h1 class="header_title">POKEFACE</h1>
+            </div>
+            <form action="" class="form-search">
+                    <input type="search" name="search-bar" class="form-search__input" placeholder="🔎 buscar">
+            </form>
+            <nav class="header_nav">
+                <div class="toggle-menu">
+                    <label for="toggle-menu-checkbox">
+                        <img src="assets/icons/menu.svg" alt="Menu desplegable">
+                    </label>
+                </div>
+                <input type="checkbox" class="toggle-menu-checkbox" id="toggle-menu-checkbox">
+                <ul class="lista_nav">
+                    <li class="lista_nav_item"><a href="#home" class="header_nav_ul_li_a"><span class="material-icons">home</span>Home<span></a></li>
+                    <li class="lista_nav_item"><a href="#about" class="header_nav_ul_li_a"><span class="material-icons">send</span>Chats</a></li>
+                    <li class="lista_nav_item"><a href="#contact" class="header_nav_ul_li_a"><span class="material-icons">settings</span>Settings</a></li>
+                    <li class="lista_nav_item"><a href="#login" class="header_nav_ul_li_a"><span class="material-icons">logout</span>Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid">
+            <main>
+                <article class="article">
+                    <header class="article_header">
+                        <div class="profile-name">
+                            <div class="article_header_container_image">
+                                <img class="article_header_image" src="assets/images/pikachu.png" alt="Foto de perfil de Pikachu" />
+                            </div>
+                            <div class="article_header_info">
+                                <h2 class="article_username">Pikachu</h2>
+                                <address class="article-header__address">Ciudad Paleta</address>
+                            </div>
+                        </div>
+                        <div class="container-image">
+                            <img src="assets/icons/points.svg" alt=""/>
+                        </div>
+                    </header>
+                    <img class="article_img" src="assets/images/raichu.gif" alt="Raichu con expresión ganadora" />
+                    <div class="actions">
+                        <div class="reactions">
+                            <div class="container-image_small"><img src="assets/icons/heart.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/charlar.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/send.svg" alt=""></div>
+                        </div>
+                        <div class="container-image_small">
+                            <img src="assets/icons/save.svg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="article_div_container"> 
+                        <h3 class="article_title_3">Pikachu</h3>
+                         <p class="article_description">He evolucionado al siguiente nivel y queria compartirlo con todos ustedes. Por otro lado, pronto cambiaremos el nombre del perfil a Raichu 😎. Fin del comunicado.</p>
+                         <p class="more_messages">Ver los 200 comentarios...</p>
+                    </div>
+                    <div class="article_add_message">
+                        <div class="article_add_message_container">
+                            <img class="article_img_message" src="assets/images/mewtwo.png" alt="Tu foto de perfil" />
+                        </div>
+                        <form action="enviar.html" method="post" class="form-coment">
+                            <input class="article_message" type="text" name="comentario" placeholder="Agrega un comentario..."/>
+                            <input type="submit" value="Publicar" class="form-coment__submit">
+                        </form>
+                    </div>
+                    <footer class="article_footer">
+                        <time datetime="2022-03-03">Hace 1 semana</time>
+                    </footer>
+                </article>
+                <article class="article">
+                    <header class="article_header">
+                        <div class="profile-name">
+                            <div class="article_header_container_image">
+                                <img class="article_header_image" src="assets/images/charizard.png" alt="Foto de perfil de Charizard" />
+                            </div>
+                            <div class="article_header_info">
+                                <h2 class="article_username">Charizard</h2>
+                                <address class="article-header__address">Ciudad Colosalia</address>
+                            </div>
+                        </div>
+                        <div class="container-image">
+                            <img src="assets/icons/points.svg" alt="" />
+                        </div>
+                    </header>
+                    <img class="article_img" src="assets/images/amigos.jpg" alt="Charizard sonriendo junto con sus amigos: Ash Ketchup y Pikachu" />
+                    <div class="actions">
+                        <div class="reactions">
+                            <div class="container-image_small"><img src="assets/icons/heart.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/charlar.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/send.svg" alt=""></div>
+                        </div>
+                        <div class="container-image_small">
+                            <img src="assets/icons/save.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="article_div_container">
+                        <h3 class="article_title_3">Charizard</h3>
+                        <p class="article_description">
+                            Gracias por todo amigos, nuestro viaje juntos estuvo genial. Aprendimos y vivimos muchas cosas, y por ello, más que mis
+                            hermanos son mis brothers. Siempre amix never enemix 👊🏿🏹.
+                        </p>
+                        <p class="more_messages">Ver los 300 comentarios...</p>
+                    </div>
+                    <div class="article_add_message">
+                        <div class="article_add_message_container">
+                            <img class="article_img_message" src="assets/images/mewtwo.png" alt="Tu foto de perfil" />
+                        </div>
+                        <form action="enviar.html" method="post" class="form-coment">
+                            <input class="article_message" type="text" name="comentario" placeholder="Agrega un comentario..." />
+                            <input type="submit" value="Publicar" class="form-coment__submit">
+                        </form>
+                    </div>
+                    <footer class="article_footer">
+                        <time datetime="2022-03-03">Hace 2 días</time>
+                    </footer>
+                </article>
+                <article class="article">
+                    <header class="article_header">
+                        <div class="profile-name">
+                            <div class="article_header_container_image">
+                                <img class="article_header_image" src="assets/images/arceus.png" alt="Foto de perfil de Arceus" />
+                            </div>
+                            <div class="article_header_info">
+                                <h2 class="article_username">Arceus</h2>
+                                <address class="article-header__address">Michina</address>
+                            </div>
+                        </div>
+                        <div class="container-image">
+                            <img src="assets/icons/points.svg" alt="" />
+                        </div>
+                    </header>
+                    <img class="article_img" src="assets/images/sentencia-arceus.webp"
+                        alt="Arceus haciendo uso de habilidad sentencia para atacar a humanos y pokemons" />
+                    <div class="actions">
+                        <div class="reactions">
+                            <div class="container-image_small"><img src="assets/icons/heart.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/charlar.svg" alt=""></div>
+                            <div class="container-image_small"><img src="assets/icons/send.svg" alt=""></div>
+                        </div>
+                        <div class="container-image_small">
+                            <img src="assets/icons/save.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="article_div_container">
+                        <h3 class="article_title_3">Arceus</h3>
+                        <p class="article_description">
+                            Cada milenio tengo más pruebas de que la humanidad es una existencia desegradable y traicionera, y asi mismo todos los pokemons que se unen a ellos. No pienso permitirlo más, ha llegado la hora de que paguen por lo que han hecho 🔥👊🏿.
+                        </p>
+                        <p class="more_messages">Ver los 300 comentarios...</p>
+                    </div>
+                    <div class="article_add_message">
+                        <div class="article_add_message_container">
+                            <img class="article_img_message" src="assets/images/mewtwo.png" alt="Tu foto de perfil" />
+                        </div>
+                        <form action="enviar.html" method="post" class="form-coment">
+                            <input class="article_message" type="text" name="comentario" placeholder="Agrega un comentario..." />
+                            <input type="submit" value="Publicar" class="form-coment__submit">
+                        </form>
+                    </div>
+                    <footer class="article_footer">
+                        <time datetime="2022-03-03">Hace 1 hora</time>
+                    </footer>
+                </article>
+            </main>
+            <div class="container">
+                <aside class="extra-profile">
+                    <section class="article_header">
+                        <div class="profile-name--auto">
+                            <div class="article_header_container_image--big">
+                                <img class="article_header_image" src="assets/images/mewtwo.png" alt="Tu foto de perfil" />
+                            </div>
+                            <div class="article_header_info">
+                                <h2 class="article_username">Mewtwo</h2>
+                                <p class="article-header__address">Mewtwo_26</p>
+                            </div>
+                        </div>
+                        <p class="ajuste">Cambiar</p>
+                    </section>
+                    <section>
+                        <header class="article_header--pd2">
+                            <h2 class="extra-profile_sugerencias">Sugerencias para ti</h2>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="extra-profile_enlace">Ver todo</a>
+                        </header>
+                        <article class="article_header-nopdv">
+                            <div class="profile-name--auto">
+                                <div class="article_header_container_image">
+                                    <img src="assets/images/giratina.png" alt="" class="article_header_image">
+                                </div>
+                                <div class="article_header_info">
+                                    <h3 class="article_username">Giratina</h3>
+                                    <p class="article-header__address">Sugerencia para ti</p>
+                                </div>
+                            </div>
+                            <p class="ajuste">Seguir</p>
+                        </article>
+                        <article class="article_header-nopdv">
+                            <div class="profile-name--auto">
+                                <div class="article_header_container_image"><img src="assets/images/vaporeon.png" alt="" class="article_header_image"></div>
+                                <div class="article_header_info">
+                                    <h3 class="article_username">Vaporeon</h3>
+                                    <p class="article-header__address">Pikachu y 4 más siguen esta cuenta</p>
+                                </div>
+                            </div>
+                            <p class="ajuste">Seguir</p>
+                        </article>
+                        <article class="article_header-nopdv">
+                            <div class="profile-name--auto">
+                                <div class="article_header_container_image"><img src="assets/images/palkia.png" alt="" class="article_header_image"></div>
+                                <div class="article_header_info">
+                                    <h3 class="article_username">Palkia</h3>
+                                    <p class="article-header__address">Nuevo en Pokeface</p>
+                                </div>
+                            </div>
+                            <p class="ajuste">Seguir</p>
+                        </article>
+                        <article class="article_header-nopdv">
+                            <div class="profile-name--auto">
+                                <div class="article_header_container_image"><img src="assets/images/dialga.png" alt="" class="article_header_image"></div>
+                                <div class="article_header_info">
+                                    <h3 class="article_username">Dialga</h3>
+                                    <p class="article-header__address">Sugerencia para ti</p>
+                                </div>
+                            </div>
+                            <p class="ajuste">Seguir</p>
+                        </article>
+                        <article class="article_header-nopdv">
+                            <div class="profile-name--auto">
+                                <div class="article_header_container_image"><img src="assets/images/darkrai.png" alt="" class="article_header_image"></div>
+                                <div class="article_header_info">
+                                    <h3 class="article_username">Darkrai</h3>
+                                    <p class="article-header__address">Arceus y 8 más siguen esta cuenta</p>
+                                </div>
+                            </div>
+                            <p class="ajuste">Seguir</p>
+                        </article>
+                    </section>
+                </aside>
+                <footer class="footer">
+                    <nav class="footer__nav">
+                        <ul class="footer__lista">
+                            <li class="footer__item"><a href="" class="footer__enlace">Pokeface</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Proyecto</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Aprendiendo</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Academlo</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">HTML5</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">CSS</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Clon</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Instagram</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Pokemon</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Fundamentos</a></li>
+                        </ul>
+                    </nav>
+                    <p>&copy; 2022 Pokeface from DemonQilin</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
