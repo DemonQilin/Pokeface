@@ -4,7 +4,7 @@
 }
 
 :root {
-    --height_header: 10vh;
+    --height_header: 60px;
     --main-color: rgb(237, 85, 100);
     --color-texto: antiquewhite;
     --color-body: rgba(2, 2, 2, 0.8);
