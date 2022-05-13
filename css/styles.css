@@ -98,7 +98,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    /* width: 100vw; */
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1em;
@@ -165,7 +165,7 @@ img {
 
     list-style-type: none;
     transition: transform 0.3s;
-    transform:translateX(100%);
+    transform:translateY(-100%);
 }
 
 @media screen and (min-width:775px) {
@@ -178,7 +178,7 @@ img {
 
         background-color: transparent;
 
-        transform:translateX(0);
+        transform:translateY(0);
     }
 }
 
@@ -187,7 +187,7 @@ img {
 }
 
 .toggle-menu-checkbox:checked + .lista_nav {
-    transform:translateX(0);
+    transform:translateY(0);
 }
 
 .toggle-menu-checkbox {
